@@ -2,7 +2,7 @@ name: Add milestone to merged pull requests
 on:
   pull_request:
     types: [closed]
-
+# Debug
 jobs:
   add_milestone:
     runs-on: ubuntu-latest
